@@ -1,0 +1,25 @@
+<h2>Movie Page</h2>
+
+<div>
+  <table>
+    <tr>
+      <td>{{ movie.title}}
+      <br><img src="{{ movie.poster }}" width="100">
+      <br><a href="/home">Back to Movies</a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="leftJust">
+  <table>
+    <tr>
+
+      <td>Room: {{ movie.room}}
+      <br>Synopsis: {{ movie.synopsis}}
+      <br>Genres: {{ movie.Genres}}
+      <br>Year: {{ movie.year}}
+      <br>Director: {{ movie.director}}
+      <br>Movie ID: {{ movie.id}}</td>
+    </tr>
+  </table>
+</div>

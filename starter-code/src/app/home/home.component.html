@@ -1,0 +1,13 @@
+<h2>The List of Movies</h2>
+
+
+<div *ngFor="let item of theMovies">
+  <table >
+    <tr>
+      Room {{ item.room}}
+      <br><img src="{{ item.poster}}" width="100">
+      <br> <a href="/movie/{{ item.id }}">{{ item.title}}</a>
+
+    </tr>
+  </table>
+</div>
